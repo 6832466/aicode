@@ -1,0 +1,5 @@
+PySide6>=6.5.0
+qfluentwidgets>=1.5.0
+python-docx>=1.0.0
+cn2an>=0.5.0
+rapidfuzz>=3.0.0

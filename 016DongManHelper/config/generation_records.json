@@ -1,0 +1,105 @@
+{
+  "records": [
+    {
+      "seq": 1,
+      "short_prompt": "一个小女孩站在上海迪斯尼乐园里，背景是城堡",
+      "submit_time": "2026-05-22T10:43:45.606783",
+      "result_path": "C:\\Users\\Administrator\\Desktop\\1_一个小女孩站在上海迪.png",
+      "error_msg": null,
+      "download_url": null,
+      "done": true,
+      "job_data": {
+        "seq": 1,
+        "prompt": "一个小女孩站在上海迪斯尼乐园里，背景是城堡",
+        "short_prompt": "一个小女孩站在上海迪斯尼乐园里，背景是城堡",
+        "images": [
+          "C:\\Users\\Administrator\\Desktop\\微信图片_20260522104239_17_249.jpg"
+        ],
+        "model": "gpt-image-2-2k",
+        "size": "1024x1792",
+        "submit_time": "2026-05-22T10:43:45.606783"
+      }
+    },
+    {
+      "seq": 2,
+      "short_prompt": "一个小女孩站在上海迪斯尼乐园里，对着镜头比了一个耶",
+      "submit_time": "2026-05-22T10:47:26.213832",
+      "result_path": "C:\\Users\\Administrator\\Desktop\\2_一个小女孩站在上海迪.png",
+      "error_msg": null,
+      "download_url": null,
+      "done": true,
+      "job_data": {
+        "seq": 2,
+        "prompt": "一个小女孩站在上海迪斯尼乐园里，对着镜头比了一个耶",
+        "short_prompt": "一个小女孩站在上海迪斯尼乐园里，对着镜头比了一个耶",
+        "images": [
+          "C:\\Users\\Administrator\\Desktop\\微信图片_20260522104239_17_249.jpg"
+        ],
+        "model": "gpt-image-2-2k",
+        "size": "1024x1792",
+        "submit_time": "2026-05-22T10:47:26.213832"
+      }
+    },
+    {
+      "seq": 3,
+      "short_prompt": "一个小女孩站在迪斯尼乐园里，对着镜头比了一个耶",
+      "submit_time": "2026-05-22T10:49:56.482073",
+      "result_path": "C:\\Users\\Administrator\\Desktop\\3_一个小女孩站在迪斯尼.png",
+      "error_msg": null,
+      "download_url": null,
+      "done": true,
+      "job_data": {
+        "seq": 3,
+        "prompt": "一个小女孩站在迪斯尼乐园里，对着镜头比了一个耶",
+        "short_prompt": "一个小女孩站在迪斯尼乐园里，对着镜头比了一个耶",
+        "images": [
+          "C:\\Users\\Administrator\\Desktop\\微信图片_20260522104239_17_249.jpg"
+        ],
+        "model": "gpt-image-2-2k",
+        "size": "1024x1792",
+        "submit_time": "2026-05-22T10:49:56.482073"
+      }
+    },
+    {
+      "seq": 4,
+      "short_prompt": "一个小女孩穿着宇航服站在空间站里，对着镜头比了一个耶",
+      "submit_time": "2026-05-22T10:54:10.283671",
+      "result_path": "C:\\Users\\Administrator\\Desktop\\4_一个小女孩穿着宇航服.png",
+      "error_msg": null,
+      "download_url": null,
+      "done": true,
+      "job_data": {
+        "seq": 4,
+        "prompt": "一个小女孩穿着宇航服站在空间站里，对着镜头比了一个耶",
+        "short_prompt": "一个小女孩穿着宇航服站在空间站里，对着镜头比了一个耶",
+        "images": [
+          "C:\\Users\\Administrator\\Desktop\\微信图片_20260522105329_18_249.jpg"
+        ],
+        "model": "gpt-image-2-2k",
+        "size": "1024x1792",
+        "submit_time": "2026-05-22T10:54:10.283671"
+      }
+    },
+    {
+      "seq": 5,
+      "short_prompt": "一个小女孩穿着宇航服站在空间站里，对着镜头比了一个耶",
+      "submit_time": "2026-05-22T10:57:33.193869",
+      "result_path": "C:\\Users\\Administrator\\Desktop\\5_一个小女孩穿着宇航服.png",
+      "error_msg": null,
+      "download_url": null,
+      "done": true,
+      "job_data": {
+        "seq": 5,
+        "prompt": "一个小女孩穿着宇航服站在空间站里，对着镜头比了一个耶",
+        "short_prompt": "一个小女孩穿着宇航服站在空间站里，对着镜头比了一个耶",
+        "images": [
+          "C:\\Users\\Administrator\\Desktop\\微信图片_20260522105329_18_249.jpg"
+        ],
+        "model": "gpt-image-2-2k",
+        "size": "1024x1792",
+        "submit_time": "2026-05-22T10:57:33.193869"
+      }
+    }
+  ],
+  "counter": 5
+}

@@ -1,0 +1,4 @@
+PySide6>=6.5.0
+qfluentwidgets>=1.5.0
+requests>=2.28.0
+markdown>=3.4.0

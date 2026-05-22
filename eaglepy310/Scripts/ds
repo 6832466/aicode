@@ -1,0 +1,6 @@
+#!D:\ai\Eagle-indextts2\eaglepy310\python.exe
+
+from deepspeed.launcher.runner import main
+
+if __name__ == '__main__':
+    main()

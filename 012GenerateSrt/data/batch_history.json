@@ -1,0 +1,142 @@
+[
+  {
+    "task_id": "1dd538d5",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 18:27:10",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "fc3cc4c1",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 19:35:45",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "5cb57039",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 19:41:59",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "ae9f322a",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 19:45:30",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "b4cf5999",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 20:04:58",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "a792bece",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 20:10:45",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "42c9532c",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "failed",
+    "srt_path": null,
+    "error": "name 'MODEL_PARAFORMER' is not defined",
+    "processed_at": "2026-05-19 20:13:19",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "15c9bcc2",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 20:17:34",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "1b7cd513",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 20:36:28",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "498ae282",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 20:42:35",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "da0eeb05",
+    "file_name": "三婚皆空.mp4",
+    "mode": "alignment",
+    "state": "failed",
+    "srt_path": null,
+    "error": "[enforce fail at alloc_cpu.cpp:115] data. DefaultCPUAllocator: not enough memory: you tried to allocate 56670659136 bytes.",
+    "processed_at": "2026-05-19 21:05:14",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "7b8837ca",
+    "file_name": "三婚皆空.mp4",
+    "mode": "alignment",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 21:12:38",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "fca4ee52",
+    "file_name": "三婚皆空.mp4",
+    "mode": "asr",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 21:39:37",
+    "duration_seconds": 0.0
+  },
+  {
+    "task_id": "3f8d87a5",
+    "file_name": "三婚皆空.mp4",
+    "mode": "alignment",
+    "state": "done",
+    "srt_path": "C:\\Users\\Administrator\\Desktop\\三婚皆空\\三婚皆空.srt",
+    "error": null,
+    "processed_at": "2026-05-19 21:43:48",
+    "duration_seconds": 0.0
+  }
+]

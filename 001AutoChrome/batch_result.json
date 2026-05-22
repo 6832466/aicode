@@ -1,0 +1,40 @@
+[
+  {
+    "index": 0,
+    "references": [
+      "suwan",
+      "chenjingming",
+      "anan"
+    ],
+    "prompt": "微距特写视角。低角度观察，一部[手机]由于重力加速坠向[玻璃茶几]，在接触玻璃面的瞬间产生清脆的物理撞击，机身随之产生轻微的弹跳。镜头紧跟撞击产生的瞬时震动感，",
+    "duration": 12,
+    "ratio": "9:16",
+    "status": "ok",
+    "time": "2026-05-11T15:12:46.175Z"
+  },
+  {
+    "index": 1,
+    "references": [
+      "suwan",
+      "keting",
+      "anan"
+    ],
+    "prompt": "特写镜头。 @suwan 神情惊愕、脸色惨白地坐在布艺沙发上，她的双手紧紧箍住怀中受惊的 @anan 。 @anan 由于惊吓正挥动着稚嫩的小手剧烈啼哭，由于哭",
+    "duration": 14,
+    "ratio": "9:16",
+    "status": "ok",
+    "time": "2026-05-11T15:12:54.183Z"
+  },
+  {
+    "index": 2,
+    "references": [
+      "suwan",
+      "chenjingming"
+    ],
+    "prompt": "全景镜头展现一段柔和的闪回场景。在明亮的室内环境， @suwan 站在巨大的落地[穿衣镜前]，正开心地将一件[碎花连衣裙]比划在身前，左手按住领口，右手轻抚裙摆",
+    "duration": 12,
+    "ratio": "9:16",
+    "status": "ok",
+    "time": "2026-05-11T15:12:59.765Z"
+  }
+]

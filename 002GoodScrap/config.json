@@ -1,0 +1,15 @@
+{
+  "theme": "霓虹",
+  "refresh_interval": 5,
+  "opacity": 1.0,
+  "au_threshold_upper": 0.0,
+  "au_threshold_lower": 0.0,
+  "xau_threshold_upper": 0.0,
+  "xau_threshold_lower": 0.0,
+  "volatility_window_minutes": 5,
+  "volatility_threshold_pct": 1.0,
+  "alert_cooldown_seconds": 60,
+  "autostart": true,
+  "window_x": 2254,
+  "window_y": 1212
+}

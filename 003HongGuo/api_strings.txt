@@ -1,0 +1,51 @@
+!==String(new URLSearchParams(
+!==new URLSearchParams(new URLSearchParams(
+),T=S.URLSearchParams,R=S.getState,I=u.URL,k=u.TypeError,j=u.parseInt,P=Math.floor,_=Math.pow,L=f(
+),p.search=
+),t.channel=
+).concat(d))}}return n})(h);return g.pathname=v,g.searchParams.append(
+):(t.channel_domain||-1!==[
+):s,search:H(void 0===l?
+);a.observe(s,{characterData:!0}),n=function(){s.data=o=�2}}else if(e.setImmediate||void 0===e.MessageChannel)n=
+);return t.href=e,t},y=function(e){var t={};try{var n=_(e).search;if(!n)return t;(n=n.slice(1)).split(
+)}catch(t){e=document.referrer}return e},e.prototype.removeQuery=function(e){try{var t=new URL(e);return t.search=
++u),c},setHref:function(t){var r=this.parse(t);if(r)throw new k(r);this.searchParams.update()},getOrigin:function(){var t=this.scheme,r=this.port;if(
+,channel:
+,d)),x(!d.search||!d.search.includes(
+,e)});var w=y.toString();m.search=w?
+,log:!0,disableAutoStart:!0,enable_ab_test:!0,ab_channel_domain:
+,p),g.searchParams.append(
+,search:
+,this.parse(t,tU)),this.searchParams.update()},getSearchParams:function(){return this.searchParams.facade},getHash:function(){var t=this.fragment;return t?
+,value:this.config.channel},{name:
+,{pathname:a,search:void 0===o?
+,{pathname:r.pathname,search:r.search,hash:r.hash},t.state&&t.state.usr||null,t.state&&t.state.key||
+:!0,email:!0,month:!0,number:!0,password:!0,range:!0,search:!0,tel:!0,text:!0,time:!0,url:!0,week:!0};function nk(e){var t=e&&e.nodeName&&e.nodeName.toLowerCase();return
+:n,o=r.search,i=r.hash;return a.startsWith(
+:p,b=n.search,w=void 0===b?
+:t,n=e.search,a=void 0===n?
+;else if(!d.route.index&&g){var y=new URLSearchParams(m.search),b=y.getAll(
+===a)&&d){var g=eN(m.search);if(d.route.index&&!g)m.search=m.search?m.search.replace(/^\?/,
+===a)},[r,c,s,a])),g=p.hash,b=p.pathname,w=p.search,E=b;return
+===s);if(null==a&&(m.search=e.search,m.hash=e.hash),(null==a||
+===t)if(nA.hasOwnProperty(n)){var r=nA[n].object,i=nA[n].src[e.channel]�?query=
+==typeof e?e:e.pathname,search:
+==typeof i?k(i):i).pathname,l=c.search,f=c.hash,{pathname:u?u.startsWith(
+==typeof n.body?n.body:n.body instanceof FormData||n.body instanceof URLSearchParams?Array.from(n.body.entries()).reduce(function(e,t){var r=(0,d._)(t,2);return
+==typeof t?k(t).search:t.search;if(e[e.length-1].route.index&&eN(r||
+@_edenx_src/hongguo/routes/layout
+@_edenx_src/hongguo/routes/page.data
+URLSearchParams
+])||navigator.userAgent,referer:document.referrer,query:(0,o._)({},window.location.search.substring(1).split(
+].indexOf(t.channel)||(this.logger.warn(
+ab_channel_domain
+channel_domain
+channel_type
+clipboardData
+getSearch
+getSearchParams
+searchParams
+setSearch
+},setPathname:function(t){this.cannotBeABaseURL||(this.path=[],this.parse(t,tC))},getSearch:function(){var t=this.query;return t?
+},setSearch:function(t){
+�,{url:n.href,protocol:n.protocol.slice(0,-1),domain:n.hostname,query:n.search.substring(1),path:r,hash:n.hash}}function Z(){var e=K()&&W();return e?e.href:

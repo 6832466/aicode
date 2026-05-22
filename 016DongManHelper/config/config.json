@@ -1,0 +1,22 @@
+{
+    "Api": {
+        "BaseUrl": "",
+        "EndpointPath": "/chat/completions",
+        "Key": "sk-z4dG67AlByr2vfabt7GMo98XG5CHBjMmSFCQFNF9HLAzRip0",
+        "SessionCookie": "MTc3OTQxNzc4MnxEWDhFQVFMX2dBQUJFQUVRQUFEX2t2LUFBQVVHYzNSeWFXNW5EQVFBQW1sa0EybHVkQVFFQVA1cTNnWnpkSEpwYm1jTUNnQUlkWE5sY201aGJXVUdjM1J5YVc1bkRBa0FCelk0TXpJME5qWUdjM1J5YVc1bkRBWUFCSEp2YkdVRGFXNTBCQUlBQWdaemRISnBibWNNQ0FBR2MzUmhkSFZ6QTJsdWRBUUNBQUlHYzNSeWFXNW5EQWNBQldkeWIzVndCbk4wY21sdVp3d0pBQWRrWldaaGRXeDB8ZUeLCs-f5s1kZhIVMMF1RDunmXNIC7j7N-CwmLrGg-M=",
+        "UserId": "{\"display_name\":\"6832466\",\"group\":\"default\",\"id\":13679,\"role\":1,\"status\":1,\"username\":\"6832466\"}",
+        "ModelName": "gpt-image-2",
+        "RemotePreset": "bj.nfai.lol",
+        "ImgSaveDir": "C:/Users/Administrator/Desktop"
+    },
+    "Prompt": {
+        "ImgPrefix": "",
+        "ImgSuffix": "",
+        "VidPrefix": "",
+        "VidSuffix": ""
+    },
+    "QFluentWidgets": {
+        "ThemeColor": "#ff009faa",
+        "ThemeMode": "Light"
+    }
+}

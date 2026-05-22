@@ -1,0 +1,33 @@
+{
+    "API": {
+        "BaseUrl": "http://127.0.0.1:9222",
+        "EndpointPath": "/v1/chat/completions",
+        "Key": "han1234",
+        "SessionCookie": "",
+        "UserId": "",
+        "ModelName": "gemini-3.1-flash-image",
+        "RemotePreset": "bj.nfai.lol"
+    },
+    "Generation": {
+        "AspectRatio": "方形 (1:1)",
+        "Resolution": "2K"
+    },
+    "CDP": {
+        "DebugHost": "localhost",
+        "DebugPort": 9222,
+        "ChromeExePath": "C:/Users/Administrator/AppData/Local/Google/Chrome/Application/chrome.exe"
+    },
+    "QFluentWidgets": {
+        "FontFamilies": [
+            "Segoe UI",
+            "Microsoft YaHei",
+            "PingFang SC"
+        ],
+        "ThemeColor": "#ff009faa",
+        "ThemeMode": "Auto"
+    },
+    "Server": {
+        "AutoStart": false,
+        "UseLocalServer": true
+    }
+}

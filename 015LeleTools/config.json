@@ -1,0 +1,36 @@
+{
+  "api": {
+    "default_endpoint": "DeepSeek",
+    "timeout": 60,
+    "auto_save_records": true,
+    "endpoints": [
+      {
+        "name": "DeepSeek",
+        "base_url": "https://api.deepseek.com",
+        "api_key": "sk-431b8f2b0c1b4c1bae1b62fecff91ea9",
+        "model": "deepseek-v4-pro",
+        "enabled": true
+      }
+    ]
+  },
+  "ui": {
+    "theme": "light",
+    "accent_color": "#2ecc71",
+    "font_family": "Microsoft YaHei",
+    "font_size": 14
+  },
+  "proxy": {
+    "enabled": false,
+    "http_proxy": "",
+    "https_proxy": ""
+  },
+  "chat": {
+    "max_context_messages": 20,
+    "system_prompt": "你是一个专业的文本处理助手，擅长改写文章、推荐BGM、生成爆款开头。"
+  },
+  "processing": {
+    "default_segment_size": 4000,
+    "default_model": "deepseek-v4-pro",
+    "stream_output": true
+  }
+}

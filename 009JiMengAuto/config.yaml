@@ -1,0 +1,21 @@
+app:
+  name: "即梦视频批量生成管理工具"
+  version: "1.0.0"
+
+task:
+  concurrency: 1          # 并发数，范围1-3
+  poll_interval: 30       # 轮询间隔（秒）
+  timeout: 1800           # 超时时间（秒）
+  retry_times: 3          # 重试次数
+
+download:
+  output_dir: "./output"  # 下载目录
+  overwrite: false        # 是否覆盖已有文件
+  max_concurrent: 3       # 下载并发数
+
+files:
+  prompt_excel: ""        # 提示词Excel路径
+  character_excel: ""     # 人物对照表Excel路径
+
+cli:
+  auto_check: true        # 启动时自动检查CLI状态

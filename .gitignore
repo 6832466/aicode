@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+*.pkg
+*.pyz
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.codebuddy/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large binaries
+*.apk
+*.flow
+*.m4a
+*.mp3
+*.mp4
+*.bin
+frida-server-*
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+.cache/
+.cover_cache/
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.p12
+*.cer
+*.bks
+*.db
+*-journal
+*.lock
+
+# Browser profiles and cookies
+.webengine_profile/
+Cookies
+*-journal
+
+# Build artifacts (keep source only)
+*/dist/
+*/build/
+*.manifest
+*.pyc

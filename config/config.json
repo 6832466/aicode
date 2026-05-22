@@ -1,0 +1,32 @@
+{
+    "API": {
+        "BaseUrl": "http://localhost:9222",
+        "EndpointPath": "/v1/chat/completions",
+        "Key": "",
+        "SessionCookie": "MTc3ODQxNDQyNHxEWDhFQVFMX2dBQUJFQUVRQUFEX2t2LUFBQVVHYzNSeWFXNW5EQWNBQldkeWIzVndCbk4wY21sdVp3d0pBQWRrWldaaGRXeDBCbk4wY21sdVp3d0VBQUpwWkFOcGJuUUVCQUQtYXQ0R2MzUnlhVzVuREFvQUNIVnpaWEp1WVcxbEJuTjBjbWx1Wnd3SkFBYzJPRE15TkRZMkJuTjBjbWx1Wnd3R0FBUnliMnhsQTJsdWRBUUNBQUlHYzNSeWFXNW5EQWdBQm5OMFlYUjFjd05wYm5RRUFnQUN8TP_MbJFiv7lQKEH_VvItE4eoHOu5zsQKL4PUQYd942k=",
+        "UserId": "13679",
+        "ModelName": "gemini-3.1-flash-image",
+        "RemotePreset": "bj.nfai.lol"
+    },
+    "Generation": {
+        "AspectRatio": "方形 (1:1)",
+        "Resolution": "2K"
+    },
+    "CDP": {
+        "DebugHost": "localhost",
+        "DebugPort": 9222
+    },
+    "QFluentWidgets": {
+        "FontFamilies": [
+            "Segoe UI",
+            "Microsoft YaHei",
+            "PingFang SC"
+        ],
+        "ThemeColor": "#ff009faa",
+        "ThemeMode": "Auto"
+    },
+    "Server": {
+        "AutoStart": false,
+        "UseLocalServer": true
+    }
+}

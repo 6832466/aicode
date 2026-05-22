@@ -1,0 +1,8 @@
+PySide6>=6.5.0
+qfluentwidgets>=2.0.0
+qasync>=0.27.1
+aiohttp>=3.8.0
+openai>=1.0.0
+cryptography>=42.0.0
+tiktoken>=0.6.0
+markdown>=3.6

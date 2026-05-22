@@ -1,0 +1,98 @@
+{
+  "download": {
+    "save_path": "C:/Users/Administrator/Desktop",
+    "max_concurrent": 3,
+    "speed_limit": 0,
+    "auto_retry": true,
+    "retry_count": 3,
+    "notify_complete": true,
+    "open_folder_after_done": false
+  },
+  "naming": {
+    "template": "{platform}_{title}_{date}",
+    "sub_by_platform": true,
+    "sub_by_date": false
+  },
+  "network": {
+    "proxy_mode": "system",
+    "proxy_url": ""
+  },
+  "general": {
+    "theme": "auto",
+    "start_on_boot": false,
+    "minimize_to_tray": true,
+    "check_update": true
+  },
+  "accounts": {
+    "douyin": [],
+    "kuaishou": []
+  },
+  "completed_downloads": [
+    {
+      "uid": "3be2fdba",
+      "title": "@快手粉条(O3xhcy6vhfzcu3qe)",
+      "url": "https://v.kuaishou.com/Kdt9wi7I",
+      "platform": "kuaishou",
+      "author": "",
+      "save_path": "C:/Users/Administrator/Desktop\\快手视频\\kuaishou_@快手粉条(O3xhcy6vhfzcu3qe)_20260509.mp4",
+      "filename": "kuaishou_@快手粉条(O3xhcy6vhfzcu3qe)_20260509.mp4",
+      "size": 11248218,
+      "timestamp": 1778285058.8772693
+    },
+    {
+      "uid": "61d2ba9a",
+      "title": "《恋恋喜钱》第一集#二次元#虐恋#女频#重生#ai漫剧",
+      "url": "https://v.douyin.com/SkCPSv3WlME/",
+      "platform": "douyin",
+      "author": "",
+      "save_path": "C:/Users/Administrator/Desktop\\抖音视频\\douyin_《恋恋喜钱》第一集#二次元#虐恋#女频#重生#ai漫剧_20260509.mp4",
+      "filename": "douyin_《恋恋喜钱》第一集#二次元#虐恋#女频#重生#ai漫剧_20260509.mp4",
+      "size": 45193219,
+      "timestamp": 1778285060.4041045
+    },
+    {
+      "uid": "ab0bd12a",
+      "title": "@快手粉条",
+      "url": "https://v.kuaishou.com/Kdt9wi7I",
+      "platform": "kuaishou",
+      "author": "",
+      "save_path": "C:/Users/Administrator/Desktop\\快手视频\\kuaishou_@快手粉条_20260509.mp4",
+      "filename": "kuaishou_@快手粉条_20260509.mp4",
+      "size": 18386051,
+      "timestamp": 1778292317.8939333
+    },
+    {
+      "uid": "8811d6e7",
+      "title": "《恋恋喜钱》第一集#二次元#虐恋#女频#重生#ai漫剧",
+      "url": "https://v.douyin.com/SkCPSv3WlME/",
+      "platform": "douyin",
+      "author": "",
+      "save_path": "C:/Users/Administrator/Desktop\\抖音视频\\douyin_《恋恋喜钱》第一集#二次元#虐恋#女频#重生#ai漫剧_20260509.mp4",
+      "filename": "douyin_《恋恋喜钱》第一集#二次元#虐恋#女频#重生#ai漫剧_20260509.mp4",
+      "size": 45193219,
+      "timestamp": 1778292319.3928373
+    },
+    {
+      "uid": "bb9635bd",
+      "title": "EP1-01.如何看懂日志1",
+      "url": "https://www.bilibili.com/video/BV1He23BQErf/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5d383ac21831c39288d5976ff1571543",
+      "platform": "bilibili",
+      "author": "",
+      "save_path": "C:/Users/Administrator/Desktop\\B站视频\\bilibili_EP1-01.如何看懂日志1_20260509.mp4",
+      "filename": "bilibili_EP1-01.如何看懂日志1_20260509.mp4",
+      "size": 2997977,
+      "timestamp": 1778292320.239264
+    }
+  ],
+  "favorites": [],
+  "stats": {
+    "total_count": 6,
+    "total_size": 168211903,
+    "today_count": 6,
+    "today_size": 168211903,
+    "today_date": "2026-05-09"
+  },
+  "test": {
+    "value": 123
+  }
+}

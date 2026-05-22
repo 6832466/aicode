@@ -1,0 +1,61 @@
+{
+  "api_providers": {
+    "geeknow": {
+      "name": "GeekNow (Gemini中转)",
+      "base_url": "https://www.geeknow.top/v1",
+      "auth_type": "Bearer Token",
+      "model_format": "OpenAI Compatible",
+      "video_format": "base64 data URI",
+      "tested_models": [
+        "gemini-3-pro-preview",
+        "gemini-3.1-pro-high"
+      ],
+      "note": "实际返回可能映射到 gemini-3.1-pro-high"
+    },
+    "openai": {
+      "name": "OpenAI (原生)",
+      "base_url": "https://api.openai.com/v1",
+      "auth_type": "Bearer Token",
+      "model_format": "OpenAI Native",
+      "video_format": "需要通过File API上传",
+      "tested_models": [
+        "gpt-4o",
+        "gpt-4o-mini"
+      ]
+    },
+    "gemini_direct": {
+      "name": "Google Gemini (原生API)",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "auth_type": "API Key in URL",
+      "model_format": "Gemini Native",
+      "video_format": "base64 in request body",
+      "tested_models": [
+        "gemini-1.5-pro",
+        "gemini-1.5-flash"
+      ]
+    }
+  },
+  "request_template": {
+    "type": "chat_completion",
+    "model": "gemini-3-pro-preview",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {"type": "text", "text": "<用户提示词>"},
+          {"type": "image_url", "image_url": {"url": "data:video/mp4;base64,<base64编码的视频>"}}
+        ]
+      }
+    ],
+    "max_tokens": 8000,
+    "temperature": 0.7
+  },
+  "default_config": {
+    "geeknow_api_key": "sk-irBaIVSQhMBUkatClAVsvR8vS4QhUaR7FkslPsOcaZSf6ArO",
+    "geeknow_endpoint": "https://www.geeknow.top/v1",
+    "geeknow_model": "gemini-3-pro-preview",
+    "default_max_tokens": 16000,
+    "default_timeout_seconds": 600,
+    "output_directory": "C:\\Users\\Administrator\\Desktop"
+  }
+}

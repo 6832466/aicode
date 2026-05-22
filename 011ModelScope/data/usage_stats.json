@@ -1,0 +1,9 @@
+[
+  {
+    "date": "2026-05-16",
+    "model_id": "Qwen/Qwen3-8B",
+    "request_count": 5,
+    "input_tokens": 0,
+    "output_tokens": 0
+  }
+]

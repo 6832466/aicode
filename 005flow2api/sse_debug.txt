@@ -1,0 +1,8 @@
+[0] data: {"id": "chatcmpl-1778335659", "object": "chat.completion.chunk", "created": 1778335659, "model": "flow2api", "choices": [{"index": 0, "delta": {"role": "assistant", "reasoning_content": "✨ 图片生成任务已启动\n"}, "finish_reason": null}]}
+[1] 
+[2] data: {"id": "chatcmpl-1778335659", "object": "chat.completion.chunk", "created": 1778335659, "model": "flow2api", "choices": [{"index": 0, "delta": {"reasoning_content": "❌ 没有可用的Token进行图片生成。所有Token都处于禁用、冷却、锁定或已过期状态。\n"}, "finish_reason": null}]}
+[3] 
+[4] data: {"error": {"message": "没有可用的Token进行图片生成。所有Token都处于禁用、冷却、锁定或已过期状态。", "type": "server_error", "code": "generation_failed", "status_code": 503}}
+[5] 
+[6] data: [DONE]
+[7] 

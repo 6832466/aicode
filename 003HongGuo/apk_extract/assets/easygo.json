@@ -1,0 +1,16 @@
+{
+  "easyGoVersion": "1.0",
+  "client": "com.dragon.read",
+  "logicEntities": [
+    {
+      "head": {
+        "function": "magicwindow",
+        "required": "true"
+      },
+      "body": {
+        "mode": "0",
+        "excludeDevice": "PAD|FOLD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+dist/
+build/
+*.egg-info/
+.hongguo_*
+.webengine_profile*/
+config/

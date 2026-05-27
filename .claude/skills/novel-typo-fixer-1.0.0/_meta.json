@@ -1,0 +1,10 @@
+{
+  "name": "novel-typo-fixer",
+  "version": "1.0.0",
+  "description": "小说推文错别字修正技能。逐段扫描长篇文本，仅修正错别字，绝不修改内容、不添加标点、不改变格式。",
+  "author": "Lele",
+  "scripts": {
+    "split": "scripts/split_text.py",
+    "merge": "scripts/merge_output.py"
+  }
+}

@@ -38,6 +38,7 @@ Thumbs.db
 *.mp3
 *.mp4
 *.bin
+*.rar
 frida-server-*
 
 # Logs and temp

@@ -1,0 +1,174 @@
+[
+  {
+    "pluginType": 2,
+    "_comment": "抖音IM插件",
+    "pluginName": "lib_plugin_plugin-awemeim",
+    "minVersionCode": 6551600,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.awemeim",
+    "extraPackages": [
+      "com.bytedance.im.sugar.input",
+      "com.ss.android.ugc.aweme.im",
+      "com.aweme.im.saas.impl"
+    ],
+    "maxVersionCode": 6551699
+  },
+  {
+    "pluginType": 2,
+    "_comment": "抖音视频SDK插件",
+    "pluginName": "lib_plugin_plugin-awemevideo.so",
+    "minVersionCode": 6551000,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.awemevideo",
+    "maxVersionCode": 6551099
+  },
+  {
+    "pluginType": 2,
+    "_comment": "vmsdk插件",
+    "pluginName": "lib_plugin_plugin-vmsdk.so",
+    "minVersionCode": 6511600,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.vmsdk",
+    "maxVersionCode": 6511699
+  },
+  {
+    "pluginType": 2,
+    "_comment": "一键登录能力外置耦合插件(跨版本)",
+    "pluginName": "lib_plugin_plugin-onekey.so",
+    "minVersionCode": 6511700,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.onekey",
+    "maxVersionCode": 6511799
+  },
+  {
+    "pluginType": 2,
+    "_comment": "播放器so外置耦合插件(跨版本)",
+    "pluginName": "lib_plugin_plugin-player.so",
+    "minVersionCode": 6551000,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.player",
+    "maxVersionCode": 6551099
+  },
+  {
+    "enableSoLink": true,
+    "pluginType": 2,
+    "_comment": "小程序插件",
+    "pluginName": "lib_plugin_plugin-appbrand.so",
+    "minVersionCode": 6551600,
+    "standalone": false,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.appbrand",
+    "soLinkConfig": [
+      {
+        "soLinkPackageName": "com.phoenix.read",
+        "soLinkSupportSoNames": [
+          "c++_shared",
+          "ttboringssl",
+          "ttcrypto",
+          "v8_libfull.cr",
+          "lynx",
+          "napi",
+          "bytenn",
+          "byteaudio",
+          "bytertc",
+          "effect",
+          "quick",
+          "sscronet",
+          "bdsword",
+          "iesapplogger"
+        ]
+      }
+    ],
+    "maxVersionCode": 6551699
+  },
+  {
+    "pluginType": 2,
+    "_comment": "小游戏插件",
+    "pluginName": "lib_plugin_plugin-minigame.so",
+    "minVersionCode": 6551600,
+    "standalone": false,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.minigame",
+    "extraPackages": [
+      "com.byted.mgl",
+      "com.minigame.miniapp",
+      "com.minigame.miniapphost",
+      "com.unity3d.player"
+    ],
+    "maxVersionCode": 6551699
+  },
+  {
+    "pluginType": 2,
+    "_comment": "扫一扫-外置耦合插件(跨版本)",
+    "pluginName": "lib_plugin_plugin-qrscan.so",
+    "minVersionCode": 6531600,
+    "standalone": false,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.qrscan",
+    "maxVersionCode": 6531699
+  },
+  {
+    "pluginType": 2,
+    "_comment": "端智能插件",
+    "pluginName": "lib_plugin_plugin-clientai.so",
+    "minVersionCode": 6551000,
+    "standalone": false,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.clientai",
+    "maxVersionCode": 6551099
+  },
+  {
+    "pluginType": 2,
+    "_comment": "分享口令规则库(春节)",
+    "pluginName": "lib_plugin_plugin-sharetoken.so",
+    "minVersionCode": 6511600,
+    "standalone": false,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.sharetoken",
+    "internalPluginMD5": "B0D3BCD9E99F10A497426E8672C3C9E3",
+    "internalPluginVersion": 6511600,
+    "maxVersionCode": 6511699
+  },
+  {
+    "pluginType": 2,
+    "_comment": "openLiveSDK-SaaS（抖音直播sdk-saas）",
+    "pluginName": "lib_plugin_plugin-live.so",
+    "minVersionCode": 6551600,
+    "standalone": false,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.live",
+    "extraPackages": [
+      "com.dragon.read.plugin.live",
+      "com.bytedance.android.annie",
+      "com.bytedance.android.live.liveinteract"
+    ],
+    "maxVersionCode": 6551699
+  },
+  {
+    "enableSoLink": true,
+    "pluginType": 2,
+    "_comment": "离线tts生成插件",
+    "pluginName": "lib_plugin_plugin-offlinetts.so",
+    "minVersionCode": 6511900,
+    "standalone": false,
+    "packageName": "com.dragon.read.plugin.offlinetts",
+    "soLinkConfig": [
+      {
+        "soLinkPackageName": "com.phoenix.read",
+        "soLinkSupportSoNames": [
+          "sscronet"
+        ]
+      }
+    ],
+    "maxVersionCode": 6511999
+  },
+  {
+    "pluginType": 2,
+    "_comment": "音效SDK插件",
+    "pluginName": "lib_plugin_plugin-audioeffect.so",
+    "minVersionCode": 6511600,
+    "internalAsSo": true,
+    "packageName": "com.dragon.read.plugin.audioeffect",
+    "maxVersionCode": 6511699
+  }
+]

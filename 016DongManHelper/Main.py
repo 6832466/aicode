@@ -39,7 +39,7 @@ class HomePage(QWidget):
         logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(logo)
 
-        subtitle = BodyLabel("AI 驱动的动漫内容创作工具")
+        subtitle = BodyLabel("AI 驱动的动漫内容创作工具 ")
         subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(subtitle)
 

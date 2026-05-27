@@ -1,0 +1,17 @@
+{
+  "extends": "@sync-your-cookie/tsconfig/utils",
+  "compilerOptions": {
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "checkJs": false,
+    "allowJs": false,
+    "baseUrl": ".",
+    "declarationMap": true,
+    "sourceMap": true,
+    "paths": {
+      "@lib/*": ["lib/*"]
+    },
+    "types": ["chrome", "node", "@octokit/types"]
+  },
+  "include": ["index.ts", "lib"],
+}

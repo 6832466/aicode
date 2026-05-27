@@ -1,0 +1,8 @@
+{
+  "theme": "Light",
+  "mica_enabled": false,
+  "download_path": "C:/Users/Administrator/Desktop",
+  "max_concurrent": 5,
+  "max_retries": 3,
+  "close_behavior": "exit"
+}

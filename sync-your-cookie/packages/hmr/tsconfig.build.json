@@ -1,0 +1,8 @@
+{
+  "extends": "@sync-your-cookie/tsconfig/utils",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "exclude": ["lib/injections/**/*"],
+  "include": ["lib", "index.ts"]
+}

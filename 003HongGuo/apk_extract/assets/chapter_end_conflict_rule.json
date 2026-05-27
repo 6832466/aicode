@@ -1,0 +1,166 @@
+{
+  "forum": {
+    "conflict": [
+      "double_coin",
+      "chapter_end_combine",
+      "chapter_end_vip",
+      "chapter_end_entrance",
+      "middle_old_white_book"
+    ]
+  },
+  "author_msg": {
+    "conflict": [
+      "double_coin",
+      "author_follow",
+      "chapter_end_book_comment",
+      "middle_old_white_book"
+    ]
+  },
+  "new_book_preheat": {
+    "conflict": [
+      "recommend_books_same_author"
+    ]
+  },
+  "author_thx": {
+    "conflict": [
+      "double_coin",
+      "author_follow",
+      "chapter_end_book_comment",
+      "middle_old_white_book"
+    ],
+    "last_chapter_conflict": [
+      "be_writer_entrance",
+      "chat_robot",
+      "author_follow",
+      "chapter_end_question",
+      "nps_title_score_card"
+    ]
+  },
+  "be_writer_entrance": {
+    "conflict": [
+      "chat_robot",
+      "robot_script"
+    ],
+    "last_chapter_conflict": [
+      "author_thx",
+      "chat_robot",
+      "author_follow",
+      "chapter_end_question",
+      "nps_title_score_card"
+    ]
+  },
+  "chat_robot": {
+    "conflict": [],
+    "last_chapter_conflict": [
+      "author_thx",
+      "be_writer_entrance",
+      "author_follow",
+      "chapter_end_question",
+      "nps_title_score_card"
+    ]
+  },
+  "author_follow": {
+    "conflict": [],
+    "last_chapter_conflict": [
+      "author_thx",
+      "be_writer_entrance",
+      "chat_robot",
+      "chapter_end_question",
+      "nps_title_score_card"
+    ]
+  },
+  "chapter_end_question": {
+    "conflict": [],
+    "last_chapter_conflict": [
+      "author_thx",
+      "be_writer_entrance",
+      "chat_robot",
+      "author_follow",
+      "nps_title_score_card"
+    ]
+  },
+  "nps_title_score_card": {
+    "conflict": [],
+    "last_chapter_conflict": [
+      "author_thx",
+      "be_writer_entrance",
+      "chat_robot",
+      "author_follow",
+      "chapter_end_question"
+    ]
+  },
+  "urge": {
+    "conflict": [
+      "double_coin",
+      "middle_old_white_book"
+    ]
+  },
+  "double_coin": {
+    "conflict": [
+      "middle_old_white_book"
+    ]
+  },
+  "middle_old_white_book": {
+    "conflict": []
+  },
+  "chapter_end_combine": {
+    "conflict": []
+  },
+  "chapter_end_ad": {
+    "conflict": []
+  },
+  "chapter_end_vip": {
+    "conflict": []
+  },
+  "chapter_end_entrance": {
+    "conflict": []
+  },
+  "chapter_end_book_comment": {
+    "conflict": [
+      "author_follow"
+    ]
+  },
+  "add_onebook_to_desktop_chase": {
+    "conflict": []
+  },
+  "add_onebook_to_desktop": {
+    "conflict": [
+      "add_onebook_to_desktop_chase",
+      "author_follow",
+      "chapter_end_ad_one_stop",
+      "chapter_end_gc_card",
+      "chapter_end_ad_card",
+      "middle_old_white_book"
+    ]
+  },
+  "chapter_end_gc_card": {
+    "conflict": [
+      "chapter_end_ad_one_stop",
+      "chapter_end_ad_card",
+      "chapter_end_ad"
+    ]
+  },
+  "chapter_end_ad_card": {
+    "conflict": [
+      "chapter_end_ad"
+    ]
+  },
+  "add_bookshelf": {
+    "conflict": [
+      "chapter_end_book_comment",
+      "author_follow",
+      "chapter_end_ad_one_stop",
+      "chapter_end_gc_card",
+      "chapter_end_ad_card",
+      "middle_old_white_book",
+      "add_onebook_to_desktop"
+    ]
+  },
+  "chapter_end_ad_one_stop": {
+    "conflict": [
+      "chapter_end_gc_card",
+      "chapter_end_ad_card",
+      "chapter_end_ad"
+    ]
+  }
+}

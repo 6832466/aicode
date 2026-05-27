@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Chrome Extension Utils",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "declarationMap": true,
+    "target": "ES6",
+    "types": ["node"],
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths"
+      },
+    ]
+  }
+}

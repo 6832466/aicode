@@ -1,0 +1,10 @@
+{
+  "name": "novel-rename",
+  "version": "1.0.0",
+  "description": "小说推文人物改名技能。修改所有角色名称（保持逻辑关系），数字转汉字（日期除外），保持核心剧情和字数不变，不带章节信息。新名字必须从网上搜索，不能是明星/公众人物名字。",
+  "author": "Lele",
+  "scripts": {
+    "extract-names": "scripts/extract_names.py",
+    "split": "scripts/split_text.py"
+  }
+}

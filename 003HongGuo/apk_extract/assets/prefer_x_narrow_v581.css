@@ -1,0 +1,417 @@
+/* 2022精修版 */
+/**兜底段间距*/
+body {
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+p {
+    line-space:0.35em;
+    margin-top:0.3em;
+    margin-bottom:0.3em;
+}
+
+ul, ol {
+    margin-top:0.21em;
+    margin-bottom:0.21em;
+    line-space:0.35em;
+    font-size:0.9em;
+}
+
+/**扉页标题*/
+.collectTitle {
+    font-family:Songti;
+    margin:80px 72px 8px 0px;
+    font-size:1.42em;
+    text-indent:0em;
+    font-weight:medium;
+    text-align:left;
+    line-space:0.2em;
+}
+
+/**扉页作者*/
+.collectAuthor {
+    font-family:Kaiti;
+    margin:0em;
+    font-size:1em;
+    text-indent:0em;
+    text-align:left;
+}
+
+/**扉页图片*/
+.collectPicture {
+    margin:24px 0em 0em 0em;
+    text-indent:0em;
+    text-align:right;
+}
+
+/**扉页详情*/
+.collectDetail {
+    font-family:Heiti;
+    margin:3em 44px 0em 10px;
+    text-indent:0em;
+}
+
+/**一级标题*/
+.chapterTitle {
+    font-family:Songti;
+    font-size:1.47em;
+    margin:46px 0em 0em 0em;
+    text-indent:0em;
+    text-align:left;
+    font-weight:bold;
+    line-space:0.2em;
+}
+
+/**标题数字*/
+.chapterTitleNum {
+    font-family:Songti;
+    font-size:0.79em;
+    text-indent:0em;
+    text-align:left;
+    font-weight:bold;
+    margin:0em;
+}
+
+/**二级标题*/
+.sectionTitle {
+    font-family:Songti;
+    font-size:1.16em;
+    text-indent:0em;
+    text-align:left;
+    font-weight:regular;
+    line-space:0.5em;
+    margin:0em;
+}
+
+/**三级标题*/
+.sectionSecTitle {
+    font-family:Songti;
+    font-size:1em;
+    text-indent:0em;
+    text-align:left;
+    font-weight:regular;
+    line-space:0.35em;
+    margin-top:24px;
+    margin-bottom:0px;
+}
+
+/**正文内容*/
+.body {
+    font-family:Heiti;
+    font-size:1em;
+    text-indent:2em;
+    text-align:justify;
+    font-weight:regular;
+    line-space:0.35em;
+}
+
+/**气泡注释*/
+.bdFootnote {
+    width:0.69em;
+    height:0.84em;
+    margin-top:-0.23em;
+    margin-bottom:0em;
+    vertical-align:top;
+    offset-y:-0.23em;
+}
+
+/**序言图片*/
+.pictureQuote {
+    text-indent:0em;
+    text-align:left;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+
+/**序言内容*/
+.quoteDefaultAlignLeft {
+    font-size:1em;
+    font-family:Kaiti;
+    text-align:left;
+    font-weight:regular;
+    text-indent:0em;
+    line-space:0.21em;
+}
+
+/**序言落款*/
+.quoteDefaultAlignRight {
+    font-size:1em;
+    margin:32px 0px 0px 0px;
+    font-family:'Kaiti';
+    text-align:right;
+    line-space:0.21em;
+}
+
+/**段落内的图片*/
+.pictureSmall {
+    margin:0em 0em 0em 0em;
+}
+
+/**单独成页的图片*/
+.pictureLarge {
+    margin:8px 0px;
+    text-indent:0em;
+    text-align:center;
+    break-after:always;
+    break-before:always;
+}
+
+/**段落间的图片*/
+.picture {
+    margin:24px 0px 0px 0px;
+    text-indent:0em;
+    text-align:center;
+    line-space:0em;
+}
+
+/**段落间的图片的文字描述*/
+.pictureDesc {
+    margin:12px 0px 24px 0px;
+    line-space:0.4em;
+    font-size:0.84em;
+    font-family:Kaiti;
+    text-indent:0em;
+    theme-color:color1#0.6;
+    text-align:left;
+    font-weight:regular;
+}
+
+/**注释或引言内的图片*/
+.pictureSpeaker {
+    margin:0em 0em 0em 0em;
+    text-indent:0em;
+}
+
+/*上面带文字的背景图*/
+.bdPicturebg {
+    break-before:always;
+}
+
+/**图表上的标题*/
+.pictureTitle {
+    font-size:0.73em;
+    text-indent:0em;
+    margin:1em 0em 0.3em 0em;
+    theme-color:color1#0.7;
+    text-align:left;
+    line-space:0.21em;
+}
+
+/**诗词作者*/
+.poemAuthor {
+    font-family:Kaiti;
+    font-size:0.84em;
+    text-align:left;
+    text-indent:0em;
+    font-weight:regular;
+    line-space:0.21em;
+    margin:0em;
+}
+
+/**诗词合集内的标题*/
+.poemSecTitle {
+    font-family:Songti;
+    font-size:1em;
+    text-align:center;
+    text-indent:0em;
+    font-weight:medium;
+    line-space:0.35em;
+    margin:0em;
+}
+
+/**诗词内容*/
+.poemBody {
+    margin:auto;
+    width:fit-content;
+    font-family:Kaiti;
+    font-size:1em;
+    text-align:left;
+    text-indent:0em;
+    font-weight:regular;
+    line-space:0.4em;
+}
+
+/**诗歌注释标题下内容*/
+.poemContent {
+    font-family:Heiti;
+    font-size:1em;
+    text-indent:0em;
+    text-align:justify;
+    font-weight:regular;
+    line-space:0.35em;
+}
+
+/**话剧角色*/
+.dramaCharacter {
+    font-family:Kaiti;
+    font-size:1em;
+    text-indent:0em;
+    text-align:left;
+    font-weight:bold;
+    line-space:0.35em;
+}
+
+/**话剧台词*/
+.dramaDialogue {
+    font-family:Heiti;
+    font-size:1em;
+    text-indent:0em;
+    text-align:justify;
+    font-weight:regular;
+    line-space:0.35em;
+}
+
+/*动作描述*/
+.dramaAction {
+    font-family:Kaiti;
+    font-size:1em;
+    text-align:justify;
+    font-weight:regular;
+    line-space:0.35em;
+}
+
+/**注释旁白等*/
+.globalSpeaker {
+    font-family:Kaiti;
+    font-size:1em;
+    text-align:left;
+    text-indent:0em;
+    margin:0px 0px 0px 45px;
+    font-weight:regular;
+    line-space:0.21em;
+}
+
+/* 出版物精修 间距实验 */
+/* 章标题和其他 */
+.chapterTitle+* {
+    margin-top:64px;
+}
+
+/* 章标题和引用 */
+.chapterTitle+.quoteDefaultAlignLeft {
+    margin-top:32px;
+}
+
+/* 引用和其他 */
+.quoteDefaultAlignLeft+* {
+    margin-top:36px;
+}
+
+.quoteDefaultAlignLeft+.quoteDefaultAlignLeft {
+    margin-top:0em;
+}
+
+/* 节标题之后 */
+.sectionTitle+* {
+    margin-top:12px;
+}
+
+/* 节标题之前 */
+*+.sectionTitle {
+    margin-top:48px;
+}
+
+/* （章标题、引言）和节标题*/
+.chapterTitle+.sectionTitle, .quoteDefaultAlignLeft+.sectionTitle {
+    margin-top:36px;
+}
+
+/* 小节标题之后 */
+.sectionSecTitle+* {
+    margin-top:4px;
+}
+
+/* 注释之前 */
+*+.globalSpeaker {
+    margin-top:24px;
+}
+
+/* 注释之间 */
+.globalSpeaker+.globalSpeaker {
+    margin-top:0.21em;
+}
+
+/* 注释之后 */
+.globalSpeaker+* {
+    margin-top:24px;
+}
+
+/* 诗词正文段落之间 */
+.poemBody+.poemBody {
+    margin-top:24px;
+}
+
+/* 诗词正文和诗合集标题*/
+.poemBody+.poemSecTitle {
+    margin-top:32px;
+}
+
+/* 诗词正文和小节*/
+.poemBody+.sectionSecTitle {
+    margin-top:48px;
+}
+
+/* 诗词作者和诗合集标题、诗正文 */
+.poemAuthor+.poemSecTitle, .poemAuthor+.poemBody {
+    margin-top:48px;
+}
+
+/* 诗词作者前 */
+*+.poemAuthor {
+    margin-top:0.42em;
+}
+
+/* 普通正文和集合内诗词名 */
+.body+.poemSecTitle {
+    margin-top:48px;
+}
+
+.picture+* {
+    margin-top:24px;
+}
+
+.picture+.pictureDesc {
+    margin-top:12px;
+}
+
+/* 作者名和正文 */
+.poemAuthor+.body {
+    margin-top:36px;
+}
+
+/* 正文和诗歌内容 */
+.body+.poemBody {
+    margin-top:24px;
+}
+
+/* 图片和标题、图说不分页 */
+.pictureTitle+.picture {
+    break-before:avoid;
+}
+
+.picture+.pictureDesc {
+    break-before:avoid;
+}
+
+code, .bdCode {
+    font-family: 'monospace';
+    font-size: 0.8em;
+    text-align: left;
+    line-space: 0.32em;
+    background-color: color9#0.06;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+/* 落款与其他 */
+.quoteDefaultAlignRight+* {
+    margin-top:60px;
+}
+
+/* 落款之间不需要间距 */
+.quoteDefaultAlignRight+.quoteDefaultAlignRight {
+    margin-top:0px;
+}

@@ -1,0 +1,18 @@
+{
+  "extends": "@sync-your-cookie/tsconfig/utils",
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@/components/*": ["./src/components/*"],
+      "@libs/*": ["./src/libs/*"]
+    },
+    "types": ["chrome"],
+  },
+  "include": ["src/**/*"]
+}

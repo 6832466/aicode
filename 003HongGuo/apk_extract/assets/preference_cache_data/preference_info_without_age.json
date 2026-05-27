@@ -1,0 +1,15 @@
+{
+	"code": 0,
+	"data": {
+		"male_data": {
+			"content_type": "none"
+		},
+		"female_data": {
+			"content_type": "none"
+		},
+		"common_data": {
+			"content_type": "none"
+		}
+	},
+	"message": "SUCCESS"
+}

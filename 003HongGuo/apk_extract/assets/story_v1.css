@@ -1,0 +1,103 @@
+h1:first-child {
+    font-size: calc(1rem + 4px);
+    line-height: calc(1.6rem + 6.4px);
+    text-indent: 0px;
+    line-space:0;
+    paragraph-space:0;
+    margin-bottom: 32px;
+}
+
+.sectionTitle {
+    font-size:1.1em;
+    font-family:HYShuFang-55W;
+    text-indent:0em;
+    text-align:center;
+    font-weight:regular;
+    background-image: url("https://lf3-reading.fqnovelpic.com/obj/novel-common/img_story_section_title_left_bg.png"), url("https://lf3-reading.fqnovelpic.com/obj/novel-common/img_story_section_title_right_bg.png");
+    background-size: 46px 8px;
+    background-position: left, right;
+    padding: 0 52px 0.15em;
+    background-repeat: no-repeat;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    bd-image-filter:reverse;
+}
+
+/* 节标题之后 */
+.sectionTitle+* {
+    margin-top:14px;
+}
+
+/* 节标题之前 */
+*+.sectionTitle {
+    margin-top:32px;
+    paragraph-space:0;
+}
+
+/* 节标题后的margin-top需减去节标题0.15em的padding-bottom */
+@media (min-font-size: 13) and (max-font-size: 19) {
+    /* 节标题之后 */
+    .sectionTitle+* {
+        margin-top:13px;
+    }
+
+    /* 节标题之前 */
+    *+.sectionTitle {
+        margin-top:28px;
+    }
+
+    h1:first-child {
+        margin-bottom: 28px;
+    }
+}
+
+@media (min-font-size: 25) and (max-font-size: 29) {
+    /* 节标题之后 */
+    .sectionTitle+* {
+        margin-top:15px;
+    }
+
+    /* 节标题之前 */
+    *+.sectionTitle {
+        margin-top:36px;
+    }
+    
+    h1:first-child {
+        margin-bottom: 36px;
+    }
+}
+
+@media (min-font-size: 32) and (max-font-size: 44) {
+    /* 节标题之后 */
+    .sectionTitle+* {
+        margin-top:16px;
+    }
+
+    /* 节标题之前 */
+    *+.sectionTitle {
+        margin-top:40px;
+    }
+    
+    h1:first-child {
+        margin-bottom: 40px;
+    }
+}
+
+@media (spacing-mode: -1) {
+    h1:first-child {
+        line-height: calc(1.5rem + 6px);
+    }
+}
+
+@media (spacing-mode: 1) {
+    h1:first-child {
+        line-height: calc(1.6rem + 6.4px);
+    }
+}
+
+@media (spacing-mode: 2) {
+    h1:first-child {
+        line-height: calc(1.8rem + 7.2px);
+    }
+}

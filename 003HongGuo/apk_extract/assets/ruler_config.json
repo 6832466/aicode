@@ -1,0 +1,267 @@
+{
+    "version": 0,
+    "strategy_set": {
+        "guard": {
+            "policies": {
+                "report_for_background": {
+                    "title": "后台上报",
+                    "cel": "(cold_launch_duration >= 30000) && (enter_background_duration >= 15000)",
+                    "conf": {
+                        "action": "report"
+                    },
+                    "type": 0
+                },
+                "report_for_privacy_alert": {
+                    "title": "隐私弹窗前上报",
+                    "cel": "(has_agreed_privacy == false)",
+                    "conf": {
+                        "action": "report"
+                    },
+                    "type": 0
+                },
+                "report_for_teen_mode": {
+                    "title": "青少年模式上报",
+                    "cel": "(is_teen_mode == true)",
+                    "conf": {
+                        "action": "report"
+                    },
+                    "type": 0
+                },
+                "report_for_basic_mode": {
+                    "title": "基本模式上报",
+                    "cel": "(is_basic_mode == true)",
+                    "conf": {
+                        "action": "report"
+                    },
+                    "type": 0
+                }
+            },
+            "strategy_map": {
+                "keys": [
+                    "api_id",
+                    "data_types"
+                ],
+                "rules": [
+                    {
+                        "title": "电子序列号",
+                        "cel": "(api_id == 102017)",
+                        "conf": {
+                            "strategy": "telephone_esn"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "传感器",
+                        "cel": "(data_types isIntersect [\"motion\"])",
+                        "conf": {
+                            "strategy": "motion"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "蓝牙配对",
+                        "cel": "(data_types isIntersect [\"bluetooth\"])",
+                        "conf": {
+                            "strategy": "bluetooth"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "账户信息写入",
+                        "cel": "(api_id in [102503,102504])",
+                        "conf": {
+                            "strategy": "account_write"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "账户信息读取",
+                        "cel": "(api_id in [102500,102501,102502])",
+                        "conf": {
+                            "strategy": "account_read"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "剪切板",
+                        "cel": "(data_types isIntersect [\"clipboard\"])",
+                        "conf": {
+                            "strategy": "clipboard"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "音视频",
+                        "cel": "(data_types isIntersect [\"audio\",\"video\"])",
+                        "conf": {
+                            "strategy": "audio_video"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "设备信息",
+                        "cel": "(data_types isIntersect [\"device_info\"])",
+                        "conf": {
+                            "strategy": "device_info"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "位置信息-权限申请",
+                        "cel": "(api_id == 100012)",
+                        "conf": {
+                            "strategy": "location_permission"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "GPS",
+                        "cel": "(data_types isIntersect [\"location\"])",
+                        "conf": {
+                            "strategy": "gps"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "网络参数-WIFI信息",
+                        "cel": "(api_id in [101000,101100,101001,102300,102302,102301])",
+                        "conf": {
+                            "strategy": "network_wifi"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "位置信息-基站信息",
+                        "cel": "(api_id in [100016,100901,100902,100903,100904,100905,100906,100907,100908,100911,100912,100909,100900,100910])",
+                        "conf": {
+                            "strategy": "gps_base_station"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "mac地址",
+                        "cel": "(api_id in [101700,101701,100014,100015])",
+                        "conf": {
+                            "strategy": "mac_adddress"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "应用列表-所有安装应用",
+                        "cel": "(api_id in [101304,101309,101308,101310])",
+                        "conf": {
+                            "strategy": "app_list_installed_app"
+                        },
+                        "type": 1
+                    },
+                    {
+                        "title": "权限申请",
+                        "cel": "(api_id in [102600,102601])",
+                        "conf": {
+                            "strategy": "permission"
+                        },
+                        "type": 1
+                    }
+                ]
+            },
+            "strategies": {
+                "app_list_installed_app": {
+                    "rules": [
+                        "report_for_background"
+                    ]
+                },
+                "permission": {
+                    "rules": [
+                        "report_for_privacy_alert",
+                        "report_for_basic_mode",
+                        "report_for_background"
+                    ]
+                },
+                "device_info": {
+                    "rules": [
+                        "report_for_teen_mode",
+                        "report_for_background"
+                    ]
+                },
+                "gps": {
+                    "rules": [
+                        "report_for_teen_mode",
+                        "report_for_background"
+                    ]
+                },
+                "mac_adddress": {
+                    "rules": [
+                        "report_for_teen_mode",
+                        "report_for_background"
+                    ]
+                },
+                "motion": {
+                    "rules": [
+                        "report_for_basic_mode",
+                        "report_for_background"
+                    ]
+                },
+                "bluetooth": {
+                    "rules": [
+                        "report_for_background"
+                    ]
+                },
+                "account_write": {
+                    "rules": [
+                        "report_for_privacy_alert",
+                        "report_for_basic_mode",
+                        "report_for_teen_mode",
+                        "report_for_background"
+                    ]
+                },
+                "network_wifi": {
+                    "rules": [
+                        "report_for_teen_mode",
+                        "report_for_background"
+                    ]
+                },
+                "audio_video": {
+                    "rules": [
+                        "report_for_basic_mode",
+                        "report_for_background"
+                    ]
+                },
+                "location_permission": {
+                    "rules": [
+                        "report_for_privacy_alert",
+                        "report_for_basic_mode",
+                        "report_for_teen_mode",
+                        "report_for_background"
+                    ]
+                },
+                "gps_base_station": {
+                    "rules": [
+                        "report_for_teen_mode",
+                        "report_for_background"
+                    ]
+                },
+                "telephone_esn": {
+                    "rules": [
+                        "report_for_teen_mode"
+                    ]
+                },
+                "account_read": {
+                    "rules": [
+                        "report_for_basic_mode",
+                        "report_for_teen_mode",
+                        "report_for_background"
+                    ]
+                },
+                "clipboard": {
+                    "rules": [
+                        "report_for_background"
+                    ]
+                }
+            },
+            "strategy_select_break": false,
+            "rule_exec_break": false,
+            "const_pool": {}
+        }
+    },
+    "signature": "67f0ab3138f72de8a45124d61b2ee3bd"
+}

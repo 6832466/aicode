@@ -1,0 +1,8 @@
+{
+  "extends": "@sync-your-cookie/tsconfig/utils",
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": ["chrome"]
+  },
+  "include": ["index.ts", "lib"]
+}

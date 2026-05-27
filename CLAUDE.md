@@ -1,6 +1,69 @@
 # CLAUDE.md
 
-Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+Monorepo of ~18 independent PySide6 desktop GUI applications for AI-driven media generation and browser automation. Maintained by a solo developer (微信: rpalele). Each numbered directory (`001AutoChrome` – `018UploadHelper`) is a standalone app with its own `main.py` entry point. There is no shared library code between projects — each is self-contained.
+
+Third-party projects in the repo (VideoCaptioner, SonicVale, sync-your-cookie, etc.) are embedded for reference, not developed here.
+
+## Embedded Python Environment
+
+All projects use `e:\AiCode\eaglepy310\` — a self-contained Python 3.10 installation (conda-like). The interpreter is `e:\AiCode\eaglepy310\python.exe`. It includes the full dependency set: PySide6, QFluentWidgets, qasync, aiohttp, Playwright, openai, PyTorch, openpyxl, cryptography, etc.
+
+**Running any script:**
+```
+e:\AiCode\eaglepy310\python.exe <script.py>
+```
+
+**Installing packages** (rarely needed; most deps are pre-installed):
+```
+e:\AiCode\eaglepy310\python.exe -m pip install <package>
+```
+
+## Tech Stack Conventions
+
+- **GUI:** PySide6 + QFluentWidgets (Microsoft Fluent Design). Every app uses `QApplication` + `MainWindow` with fluent widgets for UI. Theme config is in `config/config.json` under `QFluentWidgets`.
+- **Async in Qt:** `qasync` bridges asyncio with the Qt event loop. Apps that use `aiohttp` or Playwright async APIs wrap them with qasync.
+- **Packaging:** PyInstaller via `.spec` files. Some projects have their own `.spec`; others use the root-level specs. Build output goes to `dist/`.
+- **No tests, no linting, no CI.** The repo has no test framework, no linter config, and no CI pipeline. Don't spend time looking for them.
+- **Config:** Global settings in `config/config.json` (API keys, CDP debug port, theme). Most projects also have their own local config files (`.hongguo_config.json`, etc.).
+
+## Common Project Structure
+
+Each numbered project follows this pattern:
+```
+00XProjectName/
+  main.py          # Entry point: QApplication + MainWindow
+  ui/              # QFluentWidgets-based UI classes (main_window.py, cards, dialogs)
+  app/             # Business logic, API clients, workers
+  requirements.txt
+  resources/       # Icons, QSS stylesheets, assets
+```
+
+The typical `main.py` pattern:
+```python
+from PySide6.QtWidgets import QApplication
+from ui.main_window import MainWindow
+
+app = QApplication(sys.argv)
+window = MainWindow()
+window.show()
+sys.exit(app.exec())
+```
+
+## Code Style & Language
+
+- Variable names, comments, and UI strings are in **Chinese**. Class names and function names are often in English or mixed.
+- When adding new code, match the language convention of the surrounding file.
+- Docstrings are rare. Comments are minimal and in Chinese when present.
+
+---
+
+## Behavioral Guidelines
+
+These guidelines reduce common LLM coding mistakes. They bias toward caution over speed. For trivial tasks, use judgment.
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 

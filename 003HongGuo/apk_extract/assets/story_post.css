@@ -1,0 +1,367 @@
+p, h1, h2, blockquote, hr {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+p {
+    font-size: 1rem;
+    theme-color: "color1#1";
+}
+
+p.picture {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: calc(1rem + 4px);
+    theme-color: "color1#1";
+}
+
+h2 {
+    font-weight: bold;
+    font-size: calc(1rem + 2px);
+    theme-color: "color1#1";
+}
+
+blockquote {
+    border-left: solid 2px color3#1;
+    padding-left: 8px;
+}
+
+blockquote p {
+    theme-color: "color2#1";
+    margin: 0;
+}
+
+hr {
+    border-top: 0.5px color4#1;
+}
+
+a {
+    theme-color: "color5#1";
+}
+
+@media (max-font-size:16) and (spacing-mode:0) {
+    p {
+        line-height: 26px;
+    }
+
+    h1 {
+        line-height: 34px;
+    }
+
+    h2 {
+        line-height: 30px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 10px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 26px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 16px;
+    }
+
+}
+
+@media (max-font-size:16) and (spacing-mode:1) {
+    p {
+        line-height: 28px;
+    }
+
+    h1 {
+        line-height: 36px;
+    }
+
+    h2 {
+        line-height: 32px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 12px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 28px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 18px;
+    }
+
+}
+
+@media (max-font-size:16) and (spacing-mode:2) {
+    p {
+        line-height: 32px;
+    }
+
+    h1 {
+        line-height: 40px;
+    }
+
+    h2 {
+        line-height: 36px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 16px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 32px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 22px;
+    }
+
+}
+
+@media (min-font-size:17) and (max-font-size:19) and (spacing-mode:0) {
+    p {
+        line-height: 30px;
+    }
+
+    h1 {
+        line-height: 38px;
+    }
+
+    h2 {
+        line-height: 34px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 12px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 30px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 18px;
+    }
+
+}
+
+@media (min-font-size:17) and (max-font-size:19) and (spacing-mode:1) {
+    p {
+        line-height: 32px;
+    }
+
+    h1 {
+        line-height: 40px;
+    }
+
+    h2 {
+        line-height: 36px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 14px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 32px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-font-size:17) and (max-font-size:19) and (spacing-mode:2) {
+    p {
+        line-height: 36px;
+    }
+
+    h1 {
+        line-height: 44px;
+    }
+
+    h2 {
+        line-height: 40px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 18px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 36px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 24px;
+    }
+
+}
+
+@media (min-font-size:20) and (max-font-size:23) and (spacing-mode:0) {
+    p {
+        line-height: 32px;
+    }
+
+    h1 {
+        line-height: 38px;
+    }
+
+    h2 {
+        line-height: 36px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 12px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 32px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 18px;
+    }
+
+}
+
+@media (min-font-size:20) and (max-font-size:23) and (spacing-mode:1) {
+    p {
+        line-height: 36px;
+    }
+
+    h1 {
+        line-height: 42px;
+    }
+
+    h2 {
+        line-height: 40px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 16px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 36px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 22px;
+    }
+
+}
+
+@media (min-font-size:20) and (max-font-size:23) and (spacing-mode:2) {
+    p {
+        line-height: 40px;
+    }
+
+    h1 {
+        line-height: 46px;
+    }
+
+    h2 {
+        line-height: 44px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 20px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 40px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 26px;
+    }
+
+}
+
+@media (min-font-size:24) and (spacing-mode:0) {
+    p {
+        line-height: 38px;
+    }
+
+    h1 {
+        line-height: 46px;
+    }
+
+    h2 {
+        line-height: 42px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 14px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 38px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-font-size:24) and (spacing-mode:1) {
+    p {
+        line-height: 42px;
+    }
+
+    h1 {
+        line-height: 50px;
+    }
+
+    h2 {
+        line-height: 46px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 18px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 42px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 24px;
+    }
+
+}
+
+@media (min-font-size:24) and (spacing-mode:2) {
+    p {
+        line-height: 46px;
+    }
+
+    h1 {
+        line-height: 54px;
+    }
+
+    h2 {
+        line-height: 50px;
+    }
+
+    p+p, p+div, div+p, blockqupte+blockquote, p+blockquote, blockquote+p, h1+p, h2+p, h1+blockquote, h2+blockquote {
+        margin-top: 22px;
+    }
+
+    p+h1, p+h2, blockquote+h1, blockquote+h2, h1+h2, h2+h1 {
+        margin-top: 46px;
+    }
+
+    p+hr, hr+p, h1+hr, hr+h1, h2+hr, hr+h2, blockquote+hr, hr+blockquote {
+        margin-top: 28px;
+    }
+
+}

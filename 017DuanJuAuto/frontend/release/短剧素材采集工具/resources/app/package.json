@@ -1,0 +1,6 @@
+{
+  "name": "duanju-auto",
+  "productName": "短剧素材采集工具",
+  "version": "1.0.0",
+  "main": "electron/main.js"
+}

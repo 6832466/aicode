@@ -1,0 +1,1182 @@
+{
+  "Common": [
+    {
+      "CNName": "中国大陆",
+      "ID": "37",
+      "Num": "86",
+      "Pinyin": "Zhongguodalu"
+    },
+    {
+      "CNName": "中国香港",
+      "ID": "71",
+      "Num": "852",
+      "Pinyin": "Zhongguoxianggang"
+    },
+    {
+      "CNName": "中国澳门",
+      "ID": "100",
+      "Num": "853",
+      "Pinyin": "Zhongguoaomen"
+    },
+    {
+      "CNName": "中国台湾",
+      "ID": "169",
+      "Num": "886",
+      "Pinyin": "Zhongguotaiwan"
+    }
+  ],
+  "All": [
+    {
+      "CNName": "安哥拉",
+      "ID": "1",
+      "Num": "244",
+      "Pinyin": "Angela"
+    },
+    {
+      "CNName": "阿富汗",
+      "ID": "2",
+      "Num": "93",
+      "Pinyin": "Afuhan"
+    },
+    {
+      "CNName": "阿尔巴尼亚",
+      "ID": "3",
+      "Num": "355",
+      "Pinyin": "Aerbaniya"
+    },
+    {
+      "CNName": "阿尔及利亚",
+      "ID": "4",
+      "Num": "213",
+      "Pinyin": "Aerjiliya"
+    },
+    {
+      "CNName": "安道尔共和国",
+      "ID": "5",
+      "Num": "376",
+      "Pinyin": "Andaoergongheguo"
+    },
+    {
+      "CNName": "安圭拉岛",
+      "ID": "6",
+      "Num": "1264",
+      "Pinyin": "Anguiladao"
+    },
+    {
+      "CNName": "安提瓜和巴布达",
+      "ID": "7",
+      "Num": "1268",
+      "Pinyin": "Antiguahebabuda"
+    },
+    {
+      "CNName": "阿根廷",
+      "ID": "8",
+      "Num": "54",
+      "Pinyin": "Agenting"
+    },
+    {
+      "CNName": "亚美尼亚",
+      "ID": "9",
+      "Num": "374",
+      "Pinyin": "Yameiniya"
+    },
+    {
+      "CNName": "阿森松",
+      "ID": "10",
+      "Num": "247",
+      "Pinyin": "Asensong"
+    },
+    {
+      "CNName": "澳大利亚",
+      "ID": "11",
+      "Num": "61",
+      "Pinyin": "Aodaliya"
+    },
+    {
+      "CNName": "奥地利",
+      "ID": "12",
+      "Num": "43",
+      "Pinyin": "Aodeli"
+    },
+    {
+      "CNName": "阿塞拜疆",
+      "ID": "13",
+      "Num": "994",
+      "Pinyin": "Asaibaijiang"
+    },
+    {
+      "CNName": "巴哈马",
+      "ID": "14",
+      "Num": "1242",
+      "Pinyin": "Bahama"
+    },
+    {
+      "CNName": "巴林",
+      "ID": "15",
+      "Num": "973",
+      "Pinyin": "Balin"
+    },
+    {
+      "CNName": "孟加拉国",
+      "ID": "16",
+      "Num": "880",
+      "Pinyin": "Mengjialaguo"
+    },
+    {
+      "CNName": "巴巴多斯",
+      "ID": "17",
+      "Num": "1246",
+      "Pinyin": "Babaduosi"
+    },
+    {
+      "CNName": "白俄罗斯",
+      "ID": "18",
+      "Num": "375",
+      "Pinyin": "Baieluosi"
+    },
+    {
+      "CNName": "比利时",
+      "ID": "19",
+      "Num": "32",
+      "Pinyin": "Bilishi"
+    },
+    {
+      "CNName": "伯利兹",
+      "ID": "20",
+      "Num": "501",
+      "Pinyin": "Bolizi"
+    },
+    {
+      "CNName": "贝宁",
+      "ID": "21",
+      "Num": "229",
+      "Pinyin": "Beining"
+    },
+    {
+      "CNName": "百慕大群岛",
+      "ID": "22",
+      "Num": "1441",
+      "Pinyin": "Baimudaqundao"
+    },
+    {
+      "CNName": "玻利维亚",
+      "ID": "23",
+      "Num": "591",
+      "Pinyin": "Boliweiya"
+    },
+    {
+      "CNName": "博茨瓦纳",
+      "ID": "24",
+      "Num": "267",
+      "Pinyin": "Bociwana"
+    },
+    {
+      "CNName": "巴西",
+      "ID": "25",
+      "Num": "55",
+      "Pinyin": "Baxi"
+    },
+    {
+      "CNName": "文莱",
+      "ID": "26",
+      "Num": "673",
+      "Pinyin": "Wenlai"
+    },
+    {
+      "CNName": "保加利亚",
+      "ID": "27",
+      "Num": "359",
+      "Pinyin": "Baojialiya"
+    },
+    {
+      "CNName": "布基纳法索",
+      "ID": "28",
+      "Num": "226",
+      "Pinyin": "Bujinafasuo"
+    },
+    {
+      "CNName": "缅甸",
+      "ID": "29",
+      "Num": "95",
+      "Pinyin": "Miandian"
+    },
+    {
+      "CNName": "布隆迪",
+      "ID": "30",
+      "Num": "257",
+      "Pinyin": "Bulongdi"
+    },
+    {
+      "CNName": "喀麦隆",
+      "ID": "31",
+      "Num": "237",
+      "Pinyin": "Kamailong"
+    },
+    {
+      "CNName": "加拿大",
+      "ID": "32",
+      "Num": "1",
+      "Pinyin": "Jianada"
+    },
+    {
+      "CNName": "开曼群岛",
+      "ID": "33",
+      "Num": "1345",
+      "Pinyin": "Kaimanqundao"
+    },
+    {
+      "CNName": "中非共和国",
+      "ID": "34",
+      "Num": "236",
+      "Pinyin": "Zhongfeigongheguo"
+    },
+    {
+      "CNName": "乍得",
+      "ID": "35",
+      "Num": "235",
+      "Pinyin": "Zhade"
+    },
+    {
+      "CNName": "智利",
+      "ID": "36",
+      "Num": "56",
+      "Pinyin": "Zhili"
+    },
+    {
+      "CNName": "中国大陆",
+      "ID": "37",
+      "Num": "86",
+      "Pinyin": "Zhongguodalu"
+    },
+    {
+      "CNName": "哥伦比亚",
+      "ID": "38",
+      "Num": "57",
+      "Pinyin": "Gelunbiya"
+    },
+    {
+      "CNName": "刚果",
+      "ID": "39",
+      "Num": "242",
+      "Pinyin": "Gangguo"
+    },
+    {
+      "CNName": "库克群岛",
+      "ID": "40",
+      "Num": "682",
+      "Pinyin": "Kukequndao"
+    },
+    {
+      "CNName": "哥斯达黎加",
+      "ID": "41",
+      "Num": "506",
+      "Pinyin": "Gesidalijia"
+    },
+    {
+      "CNName": "古巴",
+      "ID": "42",
+      "Num": "53",
+      "Pinyin": "Guba"
+    },
+    {
+      "CNName": "塞浦路斯",
+      "ID": "43",
+      "Num": "357",
+      "Pinyin": "Saipulusi"
+    },
+    {
+      "CNName": "捷克",
+      "ID": "44",
+      "Num": "420",
+      "Pinyin": "Jieke"
+    },
+    {
+      "CNName": "丹麦",
+      "ID": "45",
+      "Num": "45",
+      "Pinyin": "Danmai"
+    },
+    {
+      "CNName": "吉布提",
+      "ID": "46",
+      "Num": "253",
+      "Pinyin": "Jibuti"
+    },
+    {
+      "CNName": "多米尼加共和国",
+      "ID": "47",
+      "Num": "1890",
+      "Pinyin": "Duominijiagongheguo"
+    },
+    {
+      "CNName": "厄瓜多尔",
+      "ID": "48",
+      "Num": "593",
+      "Pinyin": "Eguaduoer"
+    },
+    {
+      "CNName": "埃及",
+      "ID": "49",
+      "Num": "20",
+      "Pinyin": "Aiji"
+    },
+    {
+      "CNName": "萨尔瓦多",
+      "ID": "50",
+      "Num": "503",
+      "Pinyin": "Saerwaduo"
+    },
+    {
+      "CNName": "爱沙尼亚",
+      "ID": "51",
+      "Num": "372",
+      "Pinyin": "Aishaniya"
+    },
+    {
+      "CNName": "埃塞俄比亚",
+      "ID": "52",
+      "Num": "251",
+      "Pinyin": "Aisaiebiya"
+    },
+    {
+      "CNName": "斐济",
+      "ID": "53",
+      "Num": "679",
+      "Pinyin": "Feiji"
+    },
+    {
+      "CNName": "芬兰",
+      "ID": "54",
+      "Num": "358",
+      "Pinyin": "Fenlan"
+    },
+    {
+      "CNName": "法国",
+      "ID": "55",
+      "Num": "33",
+      "Pinyin": "Faguo"
+    },
+    {
+      "CNName": "法属圭亚那",
+      "ID": "56",
+      "Num": "594",
+      "Pinyin": "Fashuguiyana"
+    },
+    {
+      "CNName": "加蓬",
+      "ID": "57",
+      "Num": "241",
+      "Pinyin": "Jiapeng"
+    },
+    {
+      "CNName": "冈比亚",
+      "ID": "58",
+      "Num": "220",
+      "Pinyin": "Gangbiya"
+    },
+    {
+      "CNName": "格鲁吉亚",
+      "ID": "59",
+      "Num": "995",
+      "Pinyin": "Gelujiya"
+    },
+    {
+      "CNName": "德国",
+      "ID": "60",
+      "Num": "49",
+      "Pinyin": "Deguo"
+    },
+    {
+      "CNName": "加纳",
+      "ID": "61",
+      "Num": "233",
+      "Pinyin": "Jiana"
+    },
+    {
+      "CNName": "直布罗陀",
+      "ID": "62",
+      "Num": "350",
+      "Pinyin": "Zhibuluotuo"
+    },
+    {
+      "CNName": "希腊",
+      "ID": "63",
+      "Num": "30",
+      "Pinyin": "Xila"
+    },
+    {
+      "CNName": "格林纳达",
+      "ID": "64",
+      "Num": "1809",
+      "Pinyin": "Gelinnada"
+    },
+    {
+      "CNName": "关岛",
+      "ID": "65",
+      "Num": "1671",
+      "Pinyin": "Guandao"
+    },
+    {
+      "CNName": "危地马拉",
+      "ID": "66",
+      "Num": "502",
+      "Pinyin": "Weidemala"
+    },
+    {
+      "CNName": "几内亚",
+      "ID": "67",
+      "Num": "224",
+      "Pinyin": "Jineiya"
+    },
+    {
+      "CNName": "圭亚那",
+      "ID": "68",
+      "Num": "592",
+      "Pinyin": "Guiyana"
+    },
+    {
+      "CNName": "海地",
+      "ID": "69",
+      "Num": "509",
+      "Pinyin": "Haide"
+    },
+    {
+      "CNName": "洪都拉斯",
+      "ID": "70",
+      "Num": "504",
+      "Pinyin": "Hongdoulasi"
+    },
+    {
+      "CNName": "中国香港",
+      "ID": "71",
+      "Num": "852",
+      "Pinyin": "Zhongguoxianggang"
+    },
+    {
+      "CNName": "匈牙利",
+      "ID": "72",
+      "Num": "36",
+      "Pinyin": "Xiongyali"
+    },
+    {
+      "CNName": "冰岛",
+      "ID": "73",
+      "Num": "354",
+      "Pinyin": "Bingdao"
+    },
+    {
+      "CNName": "印度",
+      "ID": "74",
+      "Num": "91",
+      "Pinyin": "Yindu"
+    },
+    {
+      "CNName": "印度尼西亚",
+      "ID": "75",
+      "Num": "62",
+      "Pinyin": "Yindunixiya"
+    },
+    {
+      "CNName": "伊朗",
+      "ID": "76",
+      "Num": "98",
+      "Pinyin": "Yilang"
+    },
+    {
+      "CNName": "伊拉克",
+      "ID": "77",
+      "Num": "964",
+      "Pinyin": "Yilake"
+    },
+    {
+      "CNName": "爱尔兰",
+      "ID": "78",
+      "Num": "353",
+      "Pinyin": "Aierlan"
+    },
+    {
+      "CNName": "以色列",
+      "ID": "79",
+      "Num": "972",
+      "Pinyin": "Yiselie"
+    },
+    {
+      "CNName": "意大利",
+      "ID": "80",
+      "Num": "39",
+      "Pinyin": "Yidali"
+    },
+    {
+      "CNName": "科特迪瓦",
+      "ID": "81",
+      "Num": "225",
+      "Pinyin": "Ketediwa"
+    },
+    {
+      "CNName": "牙买加",
+      "ID": "82",
+      "Num": "1876",
+      "Pinyin": "Yamaijia"
+    },
+    {
+      "CNName": "日本",
+      "ID": "83",
+      "Num": "81",
+      "Pinyin": "Riben"
+    },
+    {
+      "CNName": "约旦",
+      "ID": "84",
+      "Num": "962",
+      "Pinyin": "Yuedan"
+    },
+    {
+      "CNName": "柬埔寨",
+      "ID": "85",
+      "Num": "855",
+      "Pinyin": "Jianbuzhai"
+    },
+    {
+      "CNName": "哈萨克斯坦",
+      "ID": "86",
+      "Num": "327",
+      "Pinyin": "Hasakesitan"
+    },
+    {
+      "CNName": "肯尼亚",
+      "ID": "87",
+      "Num": "254",
+      "Pinyin": "Kenniya"
+    },
+    {
+      "CNName": "韩国",
+      "ID": "88",
+      "Num": "82",
+      "Pinyin": "Hanguo"
+    },
+    {
+      "CNName": "科威特",
+      "ID": "89",
+      "Num": "965",
+      "Pinyin": "Keweite"
+    },
+    {
+      "CNName": "吉尔吉斯坦",
+      "ID": "90",
+      "Num": "996",
+      "Pinyin": "Jierjisitan"
+    },
+    {
+      "CNName": "老挝",
+      "ID": "91",
+      "Num": "856",
+      "Pinyin": "Laowo"
+    },
+    {
+      "CNName": "拉脱维亚",
+      "ID": "92",
+      "Num": "371",
+      "Pinyin": "Latuoweiya"
+    },
+    {
+      "CNName": "黎巴嫩",
+      "ID": "93",
+      "Num": "961",
+      "Pinyin": "Libanen"
+    },
+    {
+      "CNName": "莱索托",
+      "ID": "94",
+      "Num": "266",
+      "Pinyin": "Laisuotuo"
+    },
+    {
+      "CNName": "利比里亚",
+      "ID": "95",
+      "Num": "231",
+      "Pinyin": "Libiliya"
+    },
+    {
+      "CNName": "利比亚",
+      "ID": "96",
+      "Num": "218",
+      "Pinyin": "Libiya"
+    },
+    {
+      "CNName": "列支敦士登",
+      "ID": "97",
+      "Num": "423",
+      "Pinyin": "Liezhidunshideng"
+    },
+    {
+      "CNName": "立陶宛",
+      "ID": "98",
+      "Num": "370",
+      "Pinyin": "Litaowan"
+    },
+    {
+      "CNName": "卢森堡",
+      "ID": "99",
+      "Num": "352",
+      "Pinyin": "Lusenbao"
+    },
+    {
+      "CNName": "中国澳门",
+      "ID": "100",
+      "Num": "853",
+      "Pinyin": "Zhongguoaomen"
+    },
+    {
+      "CNName": "马达加斯加",
+      "ID": "101",
+      "Num": "261",
+      "Pinyin": "Madajiasijia"
+    },
+    {
+      "CNName": "马拉维",
+      "ID": "102",
+      "Num": "265",
+      "Pinyin": "Malawei"
+    },
+    {
+      "CNName": "马来西亚",
+      "ID": "103",
+      "Num": "60",
+      "Pinyin": "Malaixiya"
+    },
+    {
+      "CNName": "马尔代夫",
+      "ID": "104",
+      "Num": "960",
+      "Pinyin": "Maerdaifu"
+    },
+    {
+      "CNName": "马里",
+      "ID": "105",
+      "Num": "223",
+      "Pinyin": "Mali"
+    },
+    {
+      "CNName": "马耳他",
+      "ID": "106",
+      "Num": "356",
+      "Pinyin": "Maerta"
+    },
+    {
+      "CNName": "马里亚那群岛",
+      "ID": "107",
+      "Num": "1670",
+      "Pinyin": "Maliyanaqundao"
+    },
+    {
+      "CNName": "马提尼克",
+      "ID": "108",
+      "Num": "596",
+      "Pinyin": "Matinike"
+    },
+    {
+      "CNName": "毛里求斯",
+      "ID": "109",
+      "Num": "230",
+      "Pinyin": "Maoliqiusi"
+    },
+    {
+      "CNName": "墨西哥",
+      "ID": "110",
+      "Num": "52",
+      "Pinyin": "Moxige"
+    },
+    {
+      "CNName": "摩尔多瓦",
+      "ID": "111",
+      "Num": "373",
+      "Pinyin": "Moerduowa"
+    },
+    {
+      "CNName": "摩纳哥",
+      "ID": "112",
+      "Num": "377",
+      "Pinyin": "Monage"
+    },
+    {
+      "CNName": "蒙古",
+      "ID": "113",
+      "Num": "976",
+      "Pinyin": "Menggu"
+    },
+    {
+      "CNName": "蒙特塞拉特岛",
+      "ID": "114",
+      "Num": "1664",
+      "Pinyin": "Mengtesailatedao"
+    },
+    {
+      "CNName": "摩洛哥",
+      "ID": "115",
+      "Num": "212",
+      "Pinyin": "Moluoge"
+    },
+    {
+      "CNName": "莫桑比克",
+      "ID": "116",
+      "Num": "258",
+      "Pinyin": "Mosangbike"
+    },
+    {
+      "CNName": "纳米比亚",
+      "ID": "117",
+      "Num": "264",
+      "Pinyin": "Namibiya"
+    },
+    {
+      "CNName": "瑙鲁",
+      "ID": "118",
+      "Num": "674",
+      "Pinyin": "Naolu"
+    },
+    {
+      "CNName": "尼泊尔",
+      "ID": "119",
+      "Num": "977",
+      "Pinyin": "Nipoer"
+    },
+    {
+      "CNName": "荷属安的列斯",
+      "ID": "120",
+      "Num": "599",
+      "Pinyin": "Heshuandeliesi"
+    },
+    {
+      "CNName": "荷兰",
+      "ID": "121",
+      "Num": "31",
+      "Pinyin": "Helan"
+    },
+    {
+      "CNName": "新西兰",
+      "ID": "122",
+      "Num": "64",
+      "Pinyin": "Xinxilan"
+    },
+    {
+      "CNName": "尼加拉瓜",
+      "ID": "123",
+      "Num": "505",
+      "Pinyin": "Nijialagua"
+    },
+    {
+      "CNName": "尼日尔",
+      "ID": "124",
+      "Num": "227",
+      "Pinyin": "Nirier"
+    },
+    {
+      "CNName": "尼日利亚",
+      "ID": "125",
+      "Num": "234",
+      "Pinyin": "Niriliya"
+    },
+    {
+      "CNName": "朝鲜",
+      "ID": "126",
+      "Num": "850",
+      "Pinyin": "Chaoxian"
+    },
+    {
+      "CNName": "挪威",
+      "ID": "127",
+      "Num": "47",
+      "Pinyin": "Nuowei"
+    },
+    {
+      "CNName": "阿曼",
+      "ID": "128",
+      "Num": "968",
+      "Pinyin": "Aman"
+    },
+    {
+      "CNName": "巴基斯坦",
+      "ID": "129",
+      "Num": "92",
+      "Pinyin": "Bajisitan"
+    },
+    {
+      "CNName": "巴拿马",
+      "ID": "130",
+      "Num": "507",
+      "Pinyin": "Banama"
+    },
+    {
+      "CNName": "巴布亚新几内亚",
+      "ID": "131",
+      "Num": "675",
+      "Pinyin": "Babuyaxinjineiya"
+    },
+    {
+      "CNName": "巴拉圭",
+      "ID": "132",
+      "Num": "595",
+      "Pinyin": "Balagui"
+    },
+    {
+      "CNName": "秘鲁",
+      "ID": "133",
+      "Num": "51",
+      "Pinyin": "Bilu"
+    },
+    {
+      "CNName": "菲律宾",
+      "ID": "134",
+      "Num": "63",
+      "Pinyin": "Feilubin"
+    },
+    {
+      "CNName": "波兰",
+      "ID": "135",
+      "Num": "48",
+      "Pinyin": "Bolan"
+    },
+    {
+      "CNName": "法属玻利尼西亚",
+      "ID": "136",
+      "Num": "689",
+      "Pinyin": "Fashubolinixiya"
+    },
+    {
+      "CNName": "葡萄牙",
+      "ID": "137",
+      "Num": "351",
+      "Pinyin": "Putaoya"
+    },
+    {
+      "CNName": "波多黎各",
+      "ID": "138",
+      "Num": "1787",
+      "Pinyin": "Boduolige"
+    },
+    {
+      "CNName": "卡塔尔",
+      "ID": "139",
+      "Num": "974",
+      "Pinyin": "Kataer"
+    },
+    {
+      "CNName": "留尼旺",
+      "ID": "140",
+      "Num": "262",
+      "Pinyin": "Liuniwang"
+    },
+    {
+      "CNName": "罗马尼亚",
+      "ID": "141",
+      "Num": "40",
+      "Pinyin": "Luomaniya"
+    },
+    {
+      "CNName": "俄罗斯",
+      "ID": "142",
+      "Num": "7",
+      "Pinyin": "Eluosi"
+    },
+    {
+      "CNName": "圣卢西亚",
+      "ID": "143",
+      "Num": "1758",
+      "Pinyin": "Shengluxiya"
+    },
+    {
+      "CNName": "圣文森特岛",
+      "ID": "144",
+      "Num": "1784",
+      "Pinyin": "Shengwensentedao"
+    },
+    {
+      "CNName": "东萨摩亚(美)",
+      "ID": "145",
+      "Num": "684",
+      "Pinyin": "Dongsamoya(Mei)"
+    },
+    {
+      "CNName": "西萨摩亚",
+      "ID": "146",
+      "Num": "685",
+      "Pinyin": "Xisamoya"
+    },
+    {
+      "CNName": "圣马力诺",
+      "ID": "147",
+      "Num": "378",
+      "Pinyin": "Shengmalinuo"
+    },
+    {
+      "CNName": "圣多美和普林西比",
+      "ID": "148",
+      "Num": "239",
+      "Pinyin": "Shengduomeihepulinxibi"
+    },
+    {
+      "CNName": "沙特阿拉伯",
+      "ID": "149",
+      "Num": "966",
+      "Pinyin": "Shatealabo"
+    },
+    {
+      "CNName": "塞内加尔",
+      "ID": "150",
+      "Num": "221",
+      "Pinyin": "Saineijiaer"
+    },
+    {
+      "CNName": "塞舌尔",
+      "ID": "151",
+      "Num": "248",
+      "Pinyin": "Saisheer"
+    },
+    {
+      "CNName": "塞拉利昂",
+      "ID": "152",
+      "Num": "232",
+      "Pinyin": "Sailaliang"
+    },
+    {
+      "CNName": "新加坡",
+      "ID": "153",
+      "Num": "65",
+      "Pinyin": "Xinjiapo"
+    },
+    {
+      "CNName": "斯洛伐克",
+      "ID": "154",
+      "Num": "421",
+      "Pinyin": "Siluofake"
+    },
+    {
+      "CNName": "斯洛文尼亚",
+      "ID": "155",
+      "Num": "386",
+      "Pinyin": "Siluowenniya"
+    },
+    {
+      "CNName": "所罗门群岛",
+      "ID": "156",
+      "Num": "677",
+      "Pinyin": "Suoluomenqundao"
+    },
+    {
+      "CNName": "索马里",
+      "ID": "157",
+      "Num": "252",
+      "Pinyin": "Suomali"
+    },
+    {
+      "CNName": "南非",
+      "ID": "158",
+      "Num": "27",
+      "Pinyin": "Nanfei"
+    },
+    {
+      "CNName": "西班牙",
+      "ID": "159",
+      "Num": "34",
+      "Pinyin": "Xibanya"
+    },
+    {
+      "CNName": "斯里兰卡",
+      "ID": "160",
+      "Num": "94",
+      "Pinyin": "Sililanka"
+    },
+    {
+      "CNName": "圣卢西亚",
+      "ID": "161",
+      "Num": "1758",
+      "Pinyin": "Shengluxiya"
+    },
+    {
+      "CNName": "圣文森特",
+      "ID": "162",
+      "Num": "1784",
+      "Pinyin": "Shengwensente"
+    },
+    {
+      "CNName": "苏丹",
+      "ID": "163",
+      "Num": "249",
+      "Pinyin": "Sudan"
+    },
+    {
+      "CNName": "苏里南",
+      "ID": "164",
+      "Num": "597",
+      "Pinyin": "Sulinan"
+    },
+    {
+      "CNName": "斯威士兰",
+      "ID": "165",
+      "Num": "268",
+      "Pinyin": "Siweishilan"
+    },
+    {
+      "CNName": "瑞典",
+      "ID": "166",
+      "Num": "46",
+      "Pinyin": "Ruidian"
+    },
+    {
+      "CNName": "瑞士",
+      "ID": "167",
+      "Num": "41",
+      "Pinyin": "Ruishi"
+    },
+    {
+      "CNName": "叙利亚",
+      "ID": "168",
+      "Num": "963",
+      "Pinyin": "Xuliya"
+    },
+    {
+      "CNName": "中国台湾",
+      "ID": "169",
+      "Num": "886",
+      "Pinyin": "Zhongguotaiwan"
+    },
+    {
+      "CNName": "塔吉克斯坦",
+      "ID": "170",
+      "Num": "992",
+      "Pinyin": "Tajikesitan"
+    },
+    {
+      "CNName": "坦桑尼亚",
+      "ID": "171",
+      "Num": "255",
+      "Pinyin": "Tansangniya"
+    },
+    {
+      "CNName": "泰国",
+      "ID": "172",
+      "Num": "66",
+      "Pinyin": "Taiguo"
+    },
+    {
+      "CNName": "多哥",
+      "ID": "173",
+      "Num": "228",
+      "Pinyin": "Duoge"
+    },
+    {
+      "CNName": "汤加",
+      "ID": "174",
+      "Num": "676",
+      "Pinyin": "Tangjia"
+    },
+    {
+      "CNName": "特立尼达和多巴哥",
+      "ID": "175",
+      "Num": "1868",
+      "Pinyin": "Telinidaheduobage"
+    },
+    {
+      "CNName": "突尼斯",
+      "ID": "176",
+      "Num": "216",
+      "Pinyin": "Tunisi"
+    },
+    {
+      "CNName": "土耳其",
+      "ID": "177",
+      "Num": "90",
+      "Pinyin": "Tuerqi"
+    },
+    {
+      "CNName": "土库曼斯坦",
+      "ID": "178",
+      "Num": "993",
+      "Pinyin": "Tukumansitan"
+    },
+    {
+      "CNName": "乌干达",
+      "ID": "179",
+      "Num": "256",
+      "Pinyin": "Wuganda"
+    },
+    {
+      "CNName": "乌克兰",
+      "ID": "180",
+      "Num": "380",
+      "Pinyin": "Wukelan"
+    },
+    {
+      "CNName": "阿拉伯联合酋长国",
+      "ID": "181",
+      "Num": "971",
+      "Pinyin": "Alabolianheqiuzhangguo"
+    },
+    {
+      "CNName": "英国",
+      "ID": "182",
+      "Num": "44",
+      "Pinyin": "Yingguo"
+    },
+    {
+      "CNName": "美国",
+      "ID": "183",
+      "Num": "1",
+      "Pinyin": "Meiguo"
+    },
+    {
+      "CNName": "乌拉圭",
+      "ID": "184",
+      "Num": "598",
+      "Pinyin": "Wulagui"
+    },
+    {
+      "CNName": "乌兹别克斯坦",
+      "ID": "185",
+      "Num": "998",
+      "Pinyin": "Wuzibiekesitan"
+    },
+    {
+      "CNName": "委内瑞拉",
+      "ID": "186",
+      "Num": "58",
+      "Pinyin": "Weineiruila"
+    },
+    {
+      "CNName": "越南",
+      "ID": "187",
+      "Num": "84",
+      "Pinyin": "Yuenan"
+    },
+    {
+      "CNName": "也门",
+      "ID": "188",
+      "Num": "967",
+      "Pinyin": "Yemen"
+    },
+    {
+      "CNName": "南斯拉夫",
+      "ID": "189",
+      "Num": "381",
+      "Pinyin": "Nansilafu"
+    },
+    {
+      "CNName": "津巴布韦",
+      "ID": "190",
+      "Num": "263",
+      "Pinyin": "Jinbabuwei"
+    },
+    {
+      "CNName": "扎伊尔",
+      "ID": "191",
+      "Num": "243",
+      "Pinyin": "Zhayier"
+    },
+    {
+      "CNName": "赞比亚",
+      "ID": "192",
+      "Num": "260",
+      "Pinyin": "Zanbiya"
+    }
+  ]
+}

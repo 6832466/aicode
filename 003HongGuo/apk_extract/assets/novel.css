@@ -1,0 +1,27 @@
+h1,h2,h3 {
+    font-weight:bold;
+    text-align: left;
+}
+
+p {
+    text-indent:2.0em;
+    text-align: justify;
+}
+
+.picture{
+    text-indent:0em;
+    text-align:center;
+    margin:0em 0em 0em 0em;
+    line-space:0em;
+}
+
+.pictureDesc{
+    margin:12px 0px 24px 0px;
+    line-space:0.4em;
+    font-size:0.84em;
+    font-family:Kaiti;
+    text-indent:0em;
+    theme-color:color1#0.6;
+    text-align:left;
+    font-weight:regular;
+}

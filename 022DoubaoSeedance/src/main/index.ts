@@ -1131,11 +1131,11 @@ ipcMain.handle('submissions:download-batch', async (_event, ids: string[]) => {
 // 更新流程：读取 version.json → 对比版本 → 有更新则弹窗 → 用户确认 → 下载 → 安装
 
 const GITHUB_OWNER = '6832466'
-const GITHUB_REPO = '022DoubaoSeedance'
+const GITHUB_REPO = 'aicode'
 const CURRENT_VERSION = app.getVersion()
 
-// 访问仓库里的 version.json（放在 main 分支根目录）
-const VERSION_JSON_URL = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/main/version.json`
+// jsDelivr CDN（@main 分支可用，指向最新代码）
+const VERSION_JSON_URL = `https://cdn.jsdelivr.net/gh/${GITHUB_OWNER}/${GITHUB_REPO}@main/022DoubaoSeedance/version.json`
 
 // 追踪状态
 let pendingRelease: any = null
@@ -1249,12 +1249,15 @@ async function checkForUpdates() {
       type: 'info',
       title: '发现新版本',
       message: `新版本 v${latestVer} 可用（当前 v${CURRENT_VERSION}）`,
-      detail: `大小: ${formatBytes(asset.size)}\n点击确定下载并安装`,
-      buttons: ['下载安装', '稍后']
+      detail: `大小: ${formatBytes(asset.size)}\n\n点击确定跳转到下载页面，请在浏览器中下载后运行安装程序。`,
+      buttons: ['打开下载页面', '稍后']
     })
 
     if (result.response === 0) {
-      startDownload(latestVer, asset)
+      // 打开 GitHub Release 页面让用户手动下载
+      const { shell } = require('electron')
+      shell.openExternal(asset.url)
+      log('info', `📥 已打开下载页面，请在浏览器中下载`)
     }
   } catch (err: any) {
     if (err.code === 'NOT_FOUND') {

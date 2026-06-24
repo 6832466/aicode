@@ -1,9 +1,9 @@
 {
-  "version": "3.0.1",
-  "releaseUrl": "https://github.com/6832466/022DoubaoSeedance/releases/tag/v3.0.1",
+  "version": "3.0.0",
+  "releaseUrl": "https://github.com/6832466/aicode/releases/tag/v3.0.0",
   "portable": {
-    "name": "doubao-seedance-3.0.1-portable.exe",
-    "url": "https://github.com/6832466/022DoubaoSeedance/releases/download/v3.0.1/doubao-seedance-3.0.1-portable.exe",
+    "name": "doubao-seedance-3.0.0-portable.exe",
+    "url": "https://github.com/6832466/aicode/releases/download/v3.0.0/doubao-seedance-3.0.0-portable.exe",
     "size": 251658240
   }
 }
